@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+</head>
+<style>
+   
+    .subheading{
+        text-align: center;
+        
+    }
+    .textarea{
+        text-align: center;
+        
+    }
+</style>
+<body>
+    <h1 style="text-align: center;font-size: 60px;"><u>Text Editor</u></h1>
+    <h2 style="text-align: center;">Welcome to Text Formatter. Enter your text below.</h2>
+    <hr>
+    <form action="/edit" method="get">
+        <textarea name="textdata" style="width: 1262px; height: 250px;margin: 20px 180px;"></textarea><br>
+        <input type="checkbox" name="removepunctuation">Remove punctuations<br>
+        <input type="checkbox" name="all_uppercase">All UPPERCASE<br>
+        <button type="submit">Format Text</button>
+    </form>
+</body>
+</html>
